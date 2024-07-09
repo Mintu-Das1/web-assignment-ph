@@ -4,11 +4,7 @@
     margin: 0;
     font-family: "Azeret Mono", monospace;
 }
-.azeret-mono- normal {
-    font-family: "Azeret Mono", monospace;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
+
 
 /* header style */
 .header-section{
@@ -67,7 +63,7 @@
 }
 .web-development{
     background-color: rgba(13, 19, 33, 0.02);
-    width: ;width: 1150px;
+    width: 1150px;
     margin: 74px 120px 80px 100px;
     padding: 80px 95px;
     border-radius: 16px;
@@ -105,7 +101,7 @@
 
 /* Inspiration section style */
 .inspiration{
-    width: ;width: 1150px;
+    width: 1150px;
     margin: 0 150px 151px 200px;
 }
 .header-details{
@@ -120,4 +116,38 @@
 }
 .inpiro-descrip{
     margin: 24px 144px 48px 144px;
+}
+/* skills target style */
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skills-target{
+    width: 1150px;
+    margin: 0 150px 151px 200px;
+}
+.skill-html{
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 285px;
+    text-align: left;
+}
+
+.skill-css{
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 285px;
+    text-align: left;
+}
+.skill-js{
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 285px;
+    text-align: left;
+}
+.learn-anchor{
+    color: rgba(13, 19, 33, 1.00);
 }

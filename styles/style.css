@@ -11,6 +11,7 @@
     width:1536px;
     height: 606px;
     background-image: url(../assets/Hero-bg.png); 
+    
     text-align: center;
 }
 .header-content{
@@ -52,6 +53,7 @@
     margin-top: 32px;
 
 }
+
 
 
 /* Style for why-web-development */
@@ -150,4 +152,59 @@
 }
 .learn-anchor{
     color: rgba(13, 19, 33, 1.00);
+}
+
+/* Footer-Support style */
+.support{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 150px 80px 150px;
+    border-radius: 16px;
+    padding: 64px 48px;
+    text-align: center;
+    width:1140px;
+    height: 313px;
+}
+section input[type="text"], input[type="submit"]{
+
+    border-radius: 8px;
+    padding: 19px 20px;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+}
+    
+.support-title{
+    font-size: 32px ;
+    color: rgb(255, 255, 255) ;
+    margin-bottom: 10px;
+}
+.support-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.support-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    padding: 64px 205px 0 205px;
+}
+
+#feedback{
+    width: 540px;
+    text-align: start;
+    margin-top: 23px;
+}
+/* footer nav style */
+footer nav{
+    display: flex;
+    gap: 24px;
+    display: flex;
+    align-items: right  ;
+    justify-content: space-between;
 }

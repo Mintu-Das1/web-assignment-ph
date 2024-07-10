@@ -44,6 +44,7 @@
     border-radius: 8px;
     background-color: #0D1321;
     margin-top: 30px;
+    cursor: pointer;
 } 
 .learn-more-btn{
    
@@ -208,7 +209,7 @@ footer nav{
     align-items: right  ;
     justify-content: space-between;
 }
-.header-icon{
+.footer-icon{
     width: 1232px;
     position: absolute;
     border-radius: 16px;

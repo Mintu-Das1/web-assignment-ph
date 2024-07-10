@@ -112,8 +112,7 @@
 }
 .youtube-video{
     padding: 32px;
-    border: 2px solid rgba(13, 19, 33, 0.20);
-    
+    border: 2px solid rgba(13, 19, 33, 0.20); 
     overflow: hidden;
     border-radius: 10px;    
 }

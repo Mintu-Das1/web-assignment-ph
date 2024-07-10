@@ -52,6 +52,7 @@
     font-weight: 600;
     padding: 12px 20px;
     margin-top: 32px;
+    cursor: pointer;
 
 }
 
@@ -202,7 +203,6 @@ section input[type="text"], input[type="submit"]{
 }
 /* footer nav style */
 footer nav{
-    display: flex;
     gap: 24px;
     display: flex;
     align-items: right  ;

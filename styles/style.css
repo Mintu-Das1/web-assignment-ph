@@ -60,10 +60,7 @@
 
 /* Style for why-web-development */
 .web-development-details{
-    
-    margin: 50px auto;
-    
-    
+    margin: 50px auto;   
 }
 .web-development{
     background-color: rgba(13, 19, 33, 0.02);
@@ -120,12 +117,13 @@
 .inpiro-descrip{
     margin: 24px 144px 48px 144px;
 }
-/* skills target style */
+
+/* target-skills style */
 .skill-container{
     display: flex;
     gap: 24px;
 }
-.skills-target{
+.target-skills{
     width: 1150px;
     margin: 0 150px 151px 200px;
 }
